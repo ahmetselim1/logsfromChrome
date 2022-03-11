@@ -1,0 +1,137 @@
+[1647020826.876][INFO]: Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 52508
+[1647020826.876][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1647020827.692][INFO]: [b7a62c43ac541be18f8f26a4a34c8a02] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1647020827.696][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1647020827.696][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1647020827.699][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ahmet\AppData\Local\Temp\scoped_dir73764_234119869" data:,
+[1647020828.243][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1647020828.249][INFO]: [b7a62c43ac541be18f8f26a4a34c8a02] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "99.0.4844.51",
+      "chrome": {
+         "chromedriverVersion": "99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875})",
+         "userDataDir": "C:\\Users\\ahmet\\AppData\\Local\\Temp\\scoped_dir73764_234119869"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53693"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "b7a62c43ac541be18f8f26a4a34c8a02"
+}
+[1647020828.416][INFO]: [b7a62c43ac541be18f8f26a4a34c8a02] COMMAND Navigate {
+   "url": "file:///C:/Users/ahmet/OneDrive/Documents/GitHub/chromLogTest/src/test/java/client/index.html"
+}
+[1647020828.416][INFO]: Waiting for pending navigations...
+[1647020828.419][INFO]: Done waiting for pending navigations. Status: ok
+[1647020828.463][INFO]: Waiting for pending navigations...
+[1647020828.495][INFO]: Done waiting for pending navigations. Status: ok
+[1647020828.495][INFO]: [b7a62c43ac541be18f8f26a4a34c8a02] RESPONSE Navigate
+[1647020828.503][INFO]: [b7a62c43ac541be18f8f26a4a34c8a02] COMMAND GetTitle {
+
+}
+[1647020828.503][INFO]: Waiting for pending navigations...
+[1647020828.505][INFO]: Done waiting for pending navigations. Status: ok
+[1647020828.510][INFO]: Waiting for pending navigations...
+[1647020828.512][INFO]: Done waiting for pending navigations. Status: ok
+[1647020828.512][INFO]: [b7a62c43ac541be18f8f26a4a34c8a02] RESPONSE GetTitle "My Awesome Website Title"
+[1647020830.525][INFO]: [b7a62c43ac541be18f8f26a4a34c8a02] COMMAND Quit {
+
+}
+[1647020830.563][INFO]: [b7a62c43ac541be18f8f26a4a34c8a02] RESPONSE Quit
